@@ -1,6 +1,7 @@
 ﻿---
 title: RiskSight Pro
 sdk: docker
+pinned: false
 ---
 
 # 🛡️ RiskSight Pro
