@@ -1,8 +1,8 @@
 ﻿---
-title: RiskSight Pro
+title: risksight-pro
 emoji: 🛡️
-colorFrom: indigo
-colorTo: cyan
+colorFrom: purple
+colorTo: blue
 sdk: docker
 app_port: 7860
 pinned: false
