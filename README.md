@@ -1,7 +1,7 @@
 ﻿---
-title: risksight-pro
+title: RiskSight Pro
 emoji: 🛡️
-colorFrom: purple
+colorFrom: indigo
 colorTo: blue
 sdk: docker
 app_port: 7860
