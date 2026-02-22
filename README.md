@@ -1,9 +1,8 @@
 ﻿---
-title: "RiskSight Pro"
+title: RiskSight Pro
 colorFrom: indigo
 colorTo: blue
 sdk: docker
-app_port: 7860
 pinned: false
 ---
 
