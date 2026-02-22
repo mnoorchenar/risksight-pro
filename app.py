@@ -124,7 +124,7 @@ Xfd   = pd.concat([fd[["amount","hour","foreign","velocity"]].reset_index(drop=T
                    pd.get_dummies(fd.merch_risk,prefix="mr").reset_index(drop=True)], axis=1)
 FR_COLS = Xfd.columns.tolist()
 sfr   = StandardScaler().fit(Xfd)
-mdl_fr = GradientBoostingClassifier(100, random_state=42).fit(sfr.transform(Xfd), fd.fraud)
+mdl_fr = GradientBoostingClassifier(n_estimators=100, random_state=42).fit(sfr.transform(Xfd), fd.fraud)
 
 # Underwriting Risk — Logistic Regression
 Xins  = pd.concat([ins[["age","bmi","smoker","children","veh_age"]].reset_index(drop=True),
