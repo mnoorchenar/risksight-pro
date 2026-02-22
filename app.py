@@ -589,9 +589,10 @@ def loan_portfolio():
                             hole=.5, marker_colors=["#f85149","#d29922","#58a6ff","#3fb950","#00b0ff"]))
     fig2.update_layout(title="Portfolio by Credit Grade")
     # Income vs loan scatter
-    sample = cr.sample(300)
+    sample = cr.sample(300).copy()
+    sample["default"] = sample["default"].astype(str)
     fig3 = px.scatter(sample, x="income", y="loan_amt", color="default",
-                      color_discrete_map={0:"#3fb950",1:"#f85149"}, opacity=.7,
+                      color_discrete_map={"0":"#3fb950","1":"#f85149"}, opacity=.7,
                       title="Income vs Loan Amount",
                       labels={"default":"Default","income":"Annual Income","loan_amt":"Loan Amount"})
     # Region heatmap
@@ -634,7 +635,7 @@ def claims():
     mo_df = ins.groupby("month").agg(count=("claim_amt","count"),total=("claim_amt","sum")).reset_index()
     fig1 = go.Figure()
     fig1.add_trace(go.Bar(x=mo_df.month, y=mo_df.total/1e3, name="Total Claims ($K)",marker_color="#00b0ff"))
-    fig1.add_trace(go.Scatter(x=mo_df.month, y=mo_df.count, name="# Claims",
+    fig1.add_trace(go.Scatter(x=mo_df.month, y=mo_df["count"], name="# Claims",
                               yaxis="y2", line=dict(color="#d29922",width=2), mode="lines+markers"))
     fig1.update_layout(title="Claims Volume by Month",
                        yaxis=dict(title="Total ($K)"),
