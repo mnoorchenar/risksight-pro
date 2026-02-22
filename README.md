@@ -1,6 +1,5 @@
 ﻿---
 title: "RiskSight Pro"
-emoji: "🔐"
 colorFrom: indigo
 colorTo: blue
 sdk: docker
