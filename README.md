@@ -1,6 +1,6 @@
 ﻿---
-title: RiskSightPro
-emoji: 🛡️
+title: "RiskSight Pro"
+emoji: "🔐"
 colorFrom: indigo
 colorTo: blue
 sdk: docker
