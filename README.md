@@ -1,19 +1,38 @@
-﻿<div align="center">
+﻿---
+title: RiskSight Pro
+emoji: 🔐
+colorFrom: indigo
+colorTo: blue
+sdk: docker
+sdk_version: "3.9"
+app_file: app.py
+pinned: false
+short_description: "Banking & Insurance Risk Intelligence Dashboard"
+tags:
+  - risk
+  - finance
+  - banking
+  - insurance
+  - machine-learning
+  - data-science
+  - flask
+  - plotly
+---
+
+<div align="center">
 
 <!-- BANNER -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4f46e5,100:3b82f6&height=200&section=header&text=RiskSight%20Pro&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Banking%20%26%20Insurance%20Risk%20Intelligence%20Dashboard&descAlignY=60&descSize=18&animation=fadeIn" width="100%"/>
 
 <br/>
 
-<!-- BADGES ROW 1 -->
 [![License](https://img.shields.io/badge/License-MIT-4f46e5?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10+-3b82f6?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-2.x-4f46e5?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-3b82f6?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 
-<!-- BADGES ROW 2 -->
 [![Plotly](https://img.shields.io/badge/Plotly-Dashboards-4f46e5?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/)
-[![HuggingFace](https://img.shields.io/badge/🤗_Hugging_Face-Spaces-ffcc00?style=for-the-badge)](https://huggingface.co/spaces)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-Spaces-ffcc00?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces)
 [![ML Powered](https://img.shields.io/badge/ML-Powered-3b82f6?style=for-the-badge&logo=scikit-learn&logoColor=white)](#)
 [![Status](https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge)](#)
 
@@ -203,8 +222,6 @@ Contributions are welcome! Please follow these steps:
 4. **Push** to the branch: `git push origin feature/amazing-feature`
 5. **Open** a Pull Request
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for our code of conduct and contribution guidelines.
-
 ---
 
 ## 📜 License
@@ -215,10 +232,7 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more informa
 
 <div align="center">
 
-<!-- FOOTER WAVE -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,100:4f46e5&height=100&section=footer" width="100%"/>
-
-<br/>
 
 **Made with ❤️ for the FinTech & InsurTech community**
 
