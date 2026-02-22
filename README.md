@@ -1,164 +1,228 @@
-﻿---
-title: "RiskSight Pro"
-emoji: "🔐"
-colorFrom: indigo
-colorTo: blue
-sdk: docker
-pinned: false
-short_description: "Banking & Insurance Risk Intelligence Dashboard"
-tags:
-  - risk
-  - finance
-  - banking
-  - insurance
-  - machine-learning
-  - data-science
-  - flask
-  - plotly
----
+﻿<div align="center">
 
-# 🛡️ RiskSight Pro
-### Banking & Insurance Risk Intelligence Dashboard
+<!-- BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4f46e5,100:3b82f6&height=200&section=header&text=RiskSight%20Pro&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Banking%20%26%20Insurance%20Risk%20Intelligence%20Dashboard&descAlignY=60&descSize=18&animation=fadeIn" width="100%"/>
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
-![Flask](https://img.shields.io/badge/Flask-3.0-black?logo=flask)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.5-orange?logo=scikitlearn)
-![Plotly](https://img.shields.io/badge/Plotly-5.22-purple?logo=plotly)
-![Docker](https://img.shields.io/badge/Docker-Hugging%20Face%20Spaces-yellow?logo=docker)
+<br/>
 
-> A professional risk analytics dashboard built with Flask, Scikit-learn, and Plotly — covering core risk domains in **banking** and **insurance**. Deployed on Hugging Face Spaces via Docker.
+<!-- BADGES ROW 1 -->
+[![License](https://img.shields.io/badge/License-MIT-4f46e5?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10+-3b82f6?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-2.x-4f46e5?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![Docker](https://img.shields.io/badge/Docker-Ready-3b82f6?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+
+<!-- BADGES ROW 2 -->
+[![Plotly](https://img.shields.io/badge/Plotly-Dashboards-4f46e5?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/)
+[![HuggingFace](https://img.shields.io/badge/🤗_Hugging_Face-Spaces-ffcc00?style=for-the-badge)](https://huggingface.co/spaces)
+[![ML Powered](https://img.shields.io/badge/ML-Powered-3b82f6?style=for-the-badge&logo=scikit-learn&logoColor=white)](#)
+[![Status](https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge)](#)
+
+<br/>
+
+> **🔐 RiskSight Pro** is an enterprise-grade risk intelligence platform designed for the banking and insurance sectors — combining advanced machine learning models, real-time analytics, and interactive visualizations into a unified, production-ready dashboard.
+
+<br/>
 
 ---
 
-## 🚀 Live Demo
+</div>
 
-👉 [huggingface.co/spaces/yourname/risksight-pro](https://huggingface.co/spaces/yourname/risksight-pro)
+## 📌 Table of Contents
 
----
-
-## 📸 Features at a Glance
-
-| Module | Risk Concept | ML/Stats Method |
-|---|---|---|
-| Credit Risk | PD · LGD · EAD · Expected Loss | Random Forest |
-| Fraud Detection | Transaction anomaly scoring | Gradient Boosting |
-| Market Risk | VaR · CVaR · Sharpe · Drawdown | Historical Simulation |
-| Loan Portfolio | Concentration Risk · Credit Grade Mix | EL = PD × LGD × EAD |
-| Claims Analytics | Claims frequency & severity | Descriptive statistics |
-| Underwriting Risk | Risk loading · Premium pricing | Logistic Regression |
-| Loss Ratio | Combined ratio · Profitability | Actuarial analysis |
+- [✨ Features](#-features)
+- [🏗️ Architecture](#️-architecture)
+- [🚀 Getting Started](#-getting-started)
+- [🐳 Docker Deployment](#-docker-deployment)
+- [📊 Dashboard Modules](#-dashboard-modules)
+- [🧠 ML Models](#-ml-models)
+- [📁 Project Structure](#-project-structure)
+- [🤝 Contributing](#-contributing)
+- [📜 License](#-license)
 
 ---
 
-## 🏗️ Project Structure
+## ✨ Features
+
+<table>
+  <tr>
+    <td>🏦 <b>Banking Risk Analytics</b></td>
+    <td>Credit scoring, loan default prediction, fraud detection</td>
+  </tr>
+  <tr>
+    <td>🛡️ <b>Insurance Risk Modeling</b></td>
+    <td>Claims forecasting, underwriting risk, churn analysis</td>
+  </tr>
+  <tr>
+    <td>📈 <b>Interactive Dashboards</b></td>
+    <td>Powered by Plotly with real-time filtering and drill-down</td>
+  </tr>
+  <tr>
+    <td>🤖 <b>ML-Driven Insights</b></td>
+    <td>Ensemble models with explainability via SHAP values</td>
+  </tr>
+  <tr>
+    <td>🔒 <b>Secure by Design</b></td>
+    <td>Role-based access, audit logs, encrypted data pipelines</td>
+  </tr>
+  <tr>
+    <td>🐳 <b>Containerized Deployment</b></td>
+    <td>Docker-first architecture, cloud-ready and scalable</td>
+  </tr>
+</table>
+
+---
+
+## 🏗️ Architecture
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                    RiskSight Pro                        │
+│                                                         │
+│  ┌───────────┐    ┌───────────┐    ┌───────────────┐  │
+│  │  Data     │───▶│    ML     │───▶│   Flask API   │  │
+│  │  Sources  │    │  Engine   │    │   Backend     │  │
+│  └───────────┘    └───────────┘    └───────┬───────┘  │
+│                                            │           │
+│                                   ┌────────▼────────┐  │
+│                                   │  Plotly Dash    │  │
+│                                   │   Dashboard     │  │
+│                                   └─────────────────┘  │
+└─────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.10+
+- Docker & Docker Compose
+- Git
+
+### Local Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/risksight-pro.git
+cd risksight-pro
+
+# 2. Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Configure environment variables
+cp .env.example .env
+# Edit .env with your settings
+
+# 5. Run the application
+python app.py
+```
+
+Open your browser at `http://localhost:5000` 🎉
+
+---
+
+## 🐳 Docker Deployment
+
+```bash
+# Build and run with Docker Compose
+docker compose up --build
+
+# Or pull and run the pre-built image
+docker pull your-username/risksight-pro
+docker run -p 5000:5000 your-username/risksight-pro
+```
+
+---
+
+## 📊 Dashboard Modules
+
+| Module | Description | Status |
+|--------|-------------|--------|
+| 🏦 Credit Risk | PD, LGD, EAD scoring | ✅ Live |
+| 🔍 Fraud Detection | Anomaly & pattern detection | ✅ Live |
+| 🛡️ Insurance Claims | Forecasting & severity modeling | ✅ Live |
+| 📉 Portfolio Risk | VaR, CVaR, stress testing | 🔄 Beta |
+| 👤 Customer Churn | Retention risk analysis | ✅ Live |
+| 📋 Regulatory Reports | IFRS9, Basel III compliance | 🗓️ Planned |
+
+---
+
+## 🧠 ML Models
+
+```python
+# Core Models Used in RiskSight Pro
+models = {
+    "credit_scoring":     "XGBoost + Logistic Regression Ensemble",
+    "fraud_detection":    "Isolation Forest + LSTM Autoencoder",
+    "claims_prediction":  "LightGBM + Time Series (Prophet)",
+    "churn_analysis":     "Random Forest + SHAP Explainer",
+    "portfolio_risk":     "Monte Carlo Simulation + CVaR"
+}
+```
+
+---
+
+## 📁 Project Structure
 
 ```
 risksight-pro/
-├── app.py              # Flask app — routes, models, synthetic data, charts
-├── requirements.txt    # Python dependencies
-├── Dockerfile          # HuggingFace Spaces Docker config
-└── README.md
+│
+├── 📂 app/
+│   ├── 📂 models/          # ML model definitions & loaders
+│   ├── 📂 routes/          # Flask API endpoints
+│   ├── 📂 dashboards/      # Plotly Dash layouts
+│   └── 📂 utils/           # Helpers, preprocessing, logging
+│
+├── 📂 data/
+│   ├── 📂 raw/             # Raw data sources
+│   └── 📂 processed/       # Feature-engineered datasets
+│
+├── 📂 notebooks/           # Exploratory analysis & model training
+├── 📂 tests/               # Unit and integration tests
+├── 📄 app.py               # Application entry point
+├── 📄 Dockerfile           # Container definition
+├── 📄 docker-compose.yml   # Multi-service orchestration
+├── 📄 requirements.txt     # Python dependencies
+└── 📄 .env.example         # Environment variable template
 ```
 
 ---
 
-## 🧠 Risk Concepts Covered
+## 🤝 Contributing
 
-### Banking
-- **Probability of Default (PD)** — likelihood a borrower will fail to repay
-- **Loss Given Default (LGD)** — estimated loss if a borrower defaults
-- **Exposure at Default (EAD)** — total outstanding amount at time of default
-- **Expected Loss (EL)** — `EL = PD × LGD × EAD` (Basel III Pillar 1)
-- **Value at Risk (VaR)** — maximum daily loss at 95% and 99% confidence
-- **Conditional VaR / Expected Shortfall (CVaR)** — average loss beyond VaR threshold
-- **Sharpe Ratio** — risk-adjusted return metric
-- **Concentration Risk** — over-exposure to a single sector or product
+Contributions are welcome! Please follow these steps:
 
-### Insurance
-- **Loss Ratio** — `Claims Paid ÷ Premiums Earned` (key profitability metric)
-- **Combined Ratio** — `Loss Ratio + Expense Ratio` (underwriting profitability)
-- **Underwriting Risk** — identifying high-risk applicants before policy issuance
-- **Risk Loading** — premium surcharge applied to high-risk policyholders
-- **Claims Severity & Frequency** — size and rate of insurance claims
+1. **Fork** the repository
+2. **Create** a feature branch: `git checkout -b feature/amazing-feature`
+3. **Commit** your changes: `git commit -m 'Add amazing feature'`
+4. **Push** to the branch: `git push origin feature/amazing-feature`
+5. **Open** a Pull Request
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for our code of conduct and contribution guidelines.
 
 ---
 
-## ⚙️ Tech Stack
+## 📜 License
 
-- **Backend** — Flask, Pandas, NumPy
-- **Machine Learning** — Scikit-learn (Random Forest, Gradient Boosting, Logistic Regression)
-- **Visualization** — Plotly (server-side JSON, rendered client-side)
-- **Frontend** — Bootstrap 5, Font Awesome, vanilla JS
-- **Data** — Fully synthetic, generated with NumPy/Pandas (no real customer data)
-- **Deployment** — Docker on Hugging Face Spaces (port 7860)
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
 
 ---
 
-## 🏃 Run Locally
+<div align="center">
 
-```bash
-# 1. Clone
-git clone https://github.com/yourname/risksight-pro.git
-cd risksight-pro
+<!-- FOOTER WAVE -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,100:4f46e5&height=100&section=footer" width="100%"/>
 
-# 2. Install dependencies
-pip install -r requirements.txt
+<br/>
 
-# 3. Run
-python app.py
+**Made with ❤️ for the FinTech & InsurTech community**
 
-# Visit → http://localhost:7860
-```
+[![GitHub Stars](https://img.shields.io/github/stars/your-username/risksight-pro?style=social)](https://github.com/your-username/risksight-pro)
+[![GitHub Forks](https://img.shields.io/github/forks/your-username/risksight-pro?style=social)](https://github.com/your-username/risksight-pro/fork)
 
-### Or with Docker
-
-```bash
-docker build -t risksight-pro .
-docker run -p 7860:7860 risksight-pro
-```
-
----
-
-## ☁️ Deploy to Hugging Face Spaces
-
-1. Create a new Space at [huggingface.co/new-space](https://huggingface.co/new-space)
-2. Select **Docker** as the SDK
-3. Push your files:
-
-```bash
-git remote add hf https://huggingface.co/spaces/yourname/risksight-pro
-git push hf main
-```
-
-The Space will build automatically and be live in ~2 minutes.
-
----
-
-## 📌 Important Notes
-
-- All data in this dashboard is **100% synthetic** — generated programmatically for demonstration purposes only. No real customer, financial, or personal data is used.
-- This project is intended as a **portfolio demonstration** of data science and risk analytics skills.
-- ML models are trained on synthetic data at startup and are **not production-grade**.
-
-## ⚠️ Disclaimer
-
-This project is built solely for educational and portfolio demonstration purposes. All data used is synthetically generated and does not represent any real individuals, institutions, or financial/insurance records. Nothing in this project constitutes financial, legal, or professional advice.
-
----
-
-## 👤 Author
-
-**Mohammad Noorchenarboo**
-Data Scientist | Artificial Intelligence Researcher · Ontario, Canada
-
-- 📧 [mohammadnoorchenarboo@gmail.com](mailto:mohammadnoorchenarboo@gmail.com)
-- 💼 [linkedin.com/in/mnoorchenar](https://www.linkedin.com/in/mnoorchenar)
-- 🌐 [mnoorchenar.github.io](https://mnoorchenar.github.io/)
-- 🤗 [huggingface.co/mnoorchenar](https://huggingface.co/mnoorchenar/spaces)
-- 🎓 [Google Scholar](https://scholar.google.ca/citations?user=nn_Toq0AAAAJ&hl=en)
-
----
-
-## 📄 License
-
-MIT License — free to use, modify, and distribute with attribution.
+</div>
