@@ -1,22 +1,8 @@
 ﻿---
 title: RiskSight Pro
-emoji: 🔐
 colorFrom: indigo
 colorTo: blue
 sdk: docker
-sdk_version: "3.9"
-app_file: app.py
-pinned: false
-short_description: "Banking & Insurance Risk Intelligence Dashboard"
-tags:
-  - risk
-  - finance
-  - banking
-  - insurance
-  - machine-learning
-  - data-science
-  - flask
-  - plotly
 ---
 
 <div align="center">
@@ -32,7 +18,7 @@ tags:
 [![Docker](https://img.shields.io/badge/Docker-Ready-3b82f6?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 
 [![Plotly](https://img.shields.io/badge/Plotly-Dashboards-4f46e5?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-Spaces-ffcc00?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-Spaces-ffcc00?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/mnoorchenar/spaces)
 [![ML Powered](https://img.shields.io/badge/ML-Powered-3b82f6?style=for-the-badge&logo=scikit-learn&logoColor=white)](#)
 [![Status](https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge)](#)
 
@@ -55,6 +41,7 @@ tags:
 - [📊 Dashboard Modules](#-dashboard-modules)
 - [🧠 ML Models](#-ml-models)
 - [📁 Project Structure](#-project-structure)
+- [👨‍💻 Author](#-author)
 - [🤝 Contributing](#-contributing)
 - [📜 License](#-license)
 
@@ -123,7 +110,7 @@ tags:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/risksight-pro.git
+git clone https://github.com/mnoorchenar/risksight-pro.git
 cd risksight-pro
 
 # 2. Create a virtual environment
@@ -152,8 +139,8 @@ Open your browser at `http://localhost:5000` 🎉
 docker compose up --build
 
 # Or pull and run the pre-built image
-docker pull your-username/risksight-pro
-docker run -p 5000:5000 your-username/risksight-pro
+docker pull mnoorchenar/risksight-pro
+docker run -p 5000:5000 mnoorchenar/risksight-pro
 ```
 
 ---
@@ -212,6 +199,30 @@ risksight-pro/
 
 ---
 
+## 👨‍💻 Author
+
+<div align="center">
+
+<img src="https://avatars.githubusercontent.com/mnoorchenar" width="110" style="border-radius:50%;" alt="Mohammad Noorchenarboo"/>
+
+### **Mohammad Noorchenarboo**
+*Data Scientist · Artificial Intelligence Researcher · Biostatistician*
+
+📍 Ontario, Canada
+
+<br/>
+
+[![Email](https://img.shields.io/badge/Email-mohammadnoorchenarboo%40gmail.com-4f46e5?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohammadnoorchenarboo@gmail.com)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-mnoorchenar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mnoorchenar)
+[![Website](https://img.shields.io/badge/Website-mnoorchenar.github.io-3b82f6?style=for-the-badge&logo=githubpages&logoColor=white)](https://mnoorchenar.github.io/)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-mnoorchenar-ffcc00?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/mnoorchenar/spaces)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Publications-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.ca/citations?user=nn_Toq0AAAAJ&hl=en)
+
+</div>
+
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
@@ -234,9 +245,9 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more informa
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,100:4f46e5&height=100&section=footer" width="100%"/>
 
-**Made with ❤️ for the FinTech & InsurTech community**
+**Made with ❤️ by [Mohammad Noorchenarboo](https://mnoorchenar.github.io/) · Ontario, Canada**
 
-[![GitHub Stars](https://img.shields.io/github/stars/your-username/risksight-pro?style=social)](https://github.com/your-username/risksight-pro)
-[![GitHub Forks](https://img.shields.io/github/forks/your-username/risksight-pro?style=social)](https://github.com/your-username/risksight-pro/fork)
+[![GitHub Stars](https://img.shields.io/github/stars/mnoorchenar/risksight-pro?style=social)](https://github.com/mnoorchenar/risksight-pro)
+[![GitHub Forks](https://img.shields.io/github/forks/mnoorchenar/risksight-pro?style=social)](https://github.com/mnoorchenar/risksight-pro/fork)
 
 </div>
