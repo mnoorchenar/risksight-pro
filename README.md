@@ -240,6 +240,31 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
+## <span style="color:red">Disclaimer</span>
+
+> <span style="color:red">**RiskSight Pro** is developed strictly for **educational and research purposes**. It is not intended for use in production financial systems or real-world risk decision-making without proper validation.</span>
+
+<table>
+  <tr>
+    <td><span style="color:red"><b>Educational Use Only</b></span></td>
+    <td><span style="color:red">This project is built for learning, research, and demonstration purposes. It does not constitute professional financial, actuarial, or risk management advice.</span></td>
+  </tr>
+  <tr>
+    <td><span style="color:red"><b>Not Financial Advice</b></span></td>
+    <td><span style="color:red">Nothing in this dashboard should be interpreted as investment, banking, insurance, or financial advice. Always consult a qualified professional before making financial decisions.</span></td>
+  </tr>
+  <tr>
+    <td><span style="color:red"><b>No Real User Data</b></span></td>
+    <td><span style="color:red">All datasets used in this project are either synthetically generated or publicly available benchmarks. No real customer, patient, or proprietary financial data is used or stored.</span></td>
+  </tr>
+  <tr>
+    <td><span style="color:red"><b>No Warranty</b></span></td>
+    <td><span style="color:red">This software is provided "as is", without warranty of any kind. The author is not liable for any direct or indirect damages arising from its use. Use at your own risk.</span></td>
+  </tr>
+</table>
+
+---
+
 ## 📜 License
 
 Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
