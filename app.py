@@ -367,7 +367,7 @@ def credit_risk():
 
     body = f"""
     <div class="row g-3 mb-3">
-      <div class="col-md-3">{kpi_block("Default Rate","{ round(cr.default.mean()*100,1)}%","Probability of Default","<i class='fas fa-times-circle'></i>","248,81,73")}</div>
+      <div class="col-md-3">{kpi_block("Default Rate",f"{ round(cr.default.mean()*100,1)}%","Probability of Default","<i class='fas fa-times-circle'></i>","248,81,73")}</div>
       <div class="col-md-3">{kpi_block("Avg Credit Score",str(int(cr.credit_score.mean())),"Population average","<i class='fas fa-star'></i>","0,176,255")}</div>
       <div class="col-md-3">{kpi_block("High-Risk Loans",f"{(cr.default_prob>.5).sum():,}","PD > 50%","<i class='fas fa-exclamation-circle'></i>","210,153,34")}</div>
       <div class="col-md-3">{kpi_block("Avg LGD Proxy",f"{ round(cr.debt_ratio.mean()*100,1)}%","Avg debt-to-income ratio","<i class='fas fa-percent'></i>","63,185,80")}</div>
@@ -582,7 +582,7 @@ def loan_portfolio():
     fig1 = px.bar(pur_df, x="purpose", y="total", color="default_rate",
                   color_continuous_scale=["#3fb950","#f85149"],
                   title="Loan Volume by Purpose (colored by default rate)",
-                  text=pur_df.count.astype(str)+" loans")
+                  text=pur_df["count"].astype(str)+" loans")
     # Risk grade donut
     grade_cnt = cr.risk_grade.value_counts()
     fig2 = go.Figure(go.Pie(labels=grade_cnt.index.astype(str), values=grade_cnt.values,
@@ -656,7 +656,7 @@ def claims():
     fig4 = px.scatter(ins.sample(400), x="bmi", y="claim_amt", color="high_risk",
                       color_discrete_map={0:"#3fb950",1:"#f85149"},
                       title="BMI vs Claim Amount (colored by high-risk flag)",
-                      trendline="ols", opacity=.65)
+                      opacity=.65)
     j1,j2,j3,j4 = [dark_layout(f) for f in [fig1,fig2,fig3,fig4]]
 
     body = f"""

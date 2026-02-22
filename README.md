@@ -135,10 +135,14 @@ The Space will build automatically and be live in ~2 minutes.
 
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@yourname](https://github.com/yourname)
-- LinkedIn: [linkedin.com/in/yourname](https://linkedin.com/in/yourname)
-- Portfolio: [yourwebsite.com](https://yourwebsite.com)
+**Mohammad Noorchenarboo**
+Data Scientist | Artificial Intelligence Researcher · Ontario, Canada
+
+- 📧 [mohammadnoorchenarboo@gmail.com](mailto:mohammadnoorchenarboo@gmail.com)
+- 💼 [linkedin.com/in/mnoorchenar](https://www.linkedin.com/in/mnoorchenar)
+- 🌐 [mnoorchenar.github.io](https://mnoorchenar.github.io/)
+- 🤗 [huggingface.co/mnoorchenar](https://huggingface.co/mnoorchenar/spaces)
+- 🎓 [Google Scholar](https://scholar.google.ca/citations?user=nn_Toq0AAAAJ&hl=en)
 
 ---
 
