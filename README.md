@@ -8,7 +8,7 @@ sdk: docker
 <div align="center">
 
 <!-- BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4f46e5,100:3b82f6&height=200&section=header&text=RiskSight%20Pro&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Banking%20%26%20Insurance%20Risk%20Intelligence%20Dashboard&descAlignY=60&descSize=18&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:4f46e5,100:3b82f6&amp;height=200&amp;section=header&amp;text=RiskSight%20Pro&amp;fontSize=60&amp;fontColor=ffffff&amp;fontAlignY=38&amp;desc=Banking%20%26%20Insurance%20Risk%20Intelligence%20Dashboard&amp;descAlignY=60&amp;descSize=18&amp;animation=fadeIn" width="100%"/>
 
 <br/>
 
@@ -203,21 +203,43 @@ risksight-pro/
 
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/mnoorchenar" width="110" style="border-radius:50%;" alt="Mohammad Noorchenarboo"/>
+<table>
+<tr>
+<td align="center" width="100%">
 
-### **Mohammad Noorchenarboo**
-*Data Scientist · Artificial Intelligence Researcher · Biostatistician*
+<img src="https://avatars.githubusercontent.com/mnoorchenar" width="120" style="border-radius:50%; border: 3px solid #4f46e5;" alt="Mohammad Noorchenarboo"/>
 
-📍 Ontario, Canada
+<h3>Mohammad Noorchenarboo</h3>
+
+<code>Data Scientist</code> &nbsp;|&nbsp; <code>AI Researcher</code> &nbsp;|&nbsp; <code>Biostatistician</code>
+
+📍 &nbsp;Ontario, Canada
+
+<br/><br/>
+
+──────────────────────────────────────
 
 <br/>
 
-[![Email](https://img.shields.io/badge/Email-mohammadnoorchenarboo%40gmail.com-4f46e5?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohammadnoorchenarboo@gmail.com)
+📧 &nbsp;[mohammadnoorchenarboo@gmail.com](mailto:mohammadnoorchenarboo@gmail.com)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-mnoorchenar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mnoorchenar)
-[![Website](https://img.shields.io/badge/Website-mnoorchenar.github.io-3b82f6?style=for-the-badge&logo=githubpages&logoColor=white)](https://mnoorchenar.github.io/)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-mnoorchenar-ffcc00?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/mnoorchenar/spaces)
-[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Publications-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.ca/citations?user=nn_Toq0AAAAJ&hl=en)
+<br/>
+
+──────────────────────────────────────
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mnoorchenar)&nbsp;
+[![Personal Site](https://img.shields.io/badge/Website-mnoorchenar.github.io-4f46e5?style=for-the-badge&logo=githubpages&logoColor=white)](https://mnoorchenar.github.io/)&nbsp;
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-ffcc00?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/mnoorchenar/spaces)&nbsp;
+[![Google Scholar](https://img.shields.io/badge/Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.ca/citations?user=nn_Toq0AAAAJ&hl=en)&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mnoorchenar)
+
+<br/><br/>
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -243,7 +265,7 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more informa
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,100:4f46e5&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:3b82f6,100:4f46e5&amp;height=100&amp;section=footer" width="100%"/>
 
 **Made with ❤️ by [Mohammad Noorchenarboo](https://mnoorchenar.github.io/) · Ontario, Canada**
 
