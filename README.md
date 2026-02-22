@@ -1,7 +1,20 @@
 ﻿---
-title: RiskSight Pro
+title: "RiskSight Pro"
+emoji: "🔐"
+colorFrom: indigo
+colorTo: blue
 sdk: docker
 pinned: false
+short_description: "Banking & Insurance Risk Intelligence Dashboard"
+tags:
+  - risk
+  - finance
+  - banking
+  - insurance
+  - machine-learning
+  - data-science
+  - flask
+  - plotly
 ---
 
 # 🛡️ RiskSight Pro
@@ -126,6 +139,10 @@ The Space will build automatically and be live in ~2 minutes.
 - All data in this dashboard is **100% synthetic** — generated programmatically for demonstration purposes only. No real customer, financial, or personal data is used.
 - This project is intended as a **portfolio demonstration** of data science and risk analytics skills.
 - ML models are trained on synthetic data at startup and are **not production-grade**.
+
+## ⚠️ Disclaimer
+
+This project is built solely for educational and portfolio demonstration purposes. All data used is synthetically generated and does not represent any real individuals, institutions, or financial/insurance records. Nothing in this project constitutes financial, legal, or professional advice.
 
 ---
 
