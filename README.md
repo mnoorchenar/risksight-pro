@@ -1,5 +1,5 @@
 ﻿---
-title: RiskSight Pro
+title: RiskSightPro
 emoji: 🛡️
 colorFrom: indigo
 colorTo: blue
