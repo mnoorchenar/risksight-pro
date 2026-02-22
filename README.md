@@ -3,23 +3,24 @@ title: RiskSight Pro
 colorFrom: indigo
 colorTo: blue
 sdk: docker
-domain: banking, insurance
-industry: finance, risk management
-type: Intelligence Dashboard
 ---
 
 <div align="center">
 
 <!-- BANNER -->
 <h1>🔐 RiskSight Pro</h1>
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=22&amp;duration=3000&amp;pause=1000&amp;color=4F46E5&amp;center=true&amp;vCenter=true&amp;width=700&amp;lines=Banking+%26+Insurance+Risk+Intelligence%3BMachine+Learning+%7C+Flask+%7C+Plotly%3BEnterprise-Grade+Risk+Dashboard" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=4F46E5&center=true&vCenter=true&width=700&lines=Banking+%26+Insurance+Risk+Intelligence;Machine+Learning+%7C+Flask+%7C+Plotly;Enterprise-Grade+Risk+Dashboard" alt="Typing SVG"/>
 
 <br/>
 
+[![License](https://img.shields.io/badge/License-MIT-4f46e5?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10+-3b82f6?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-2.x-4f46e5?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-3b82f6?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+
+[![Plotly](https://img.shields.io/badge/Plotly-Dashboards-4f46e5?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-Spaces-ffcc00?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/mnoorchenar/spaces)
+[![ML Powered](https://img.shields.io/badge/ML-Powered-3b82f6?style=for-the-badge&logo=scikit-learn&logoColor=white)](#)
 [![Status](https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge)](#)
 
 <br/>
