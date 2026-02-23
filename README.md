@@ -255,7 +255,7 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more informa
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:3b82f6,100:4f46e5&amp;height=120&amp;section=footer&amp;text=Made%20with%20%E2%9D%A4%EF%B8%8F%20by%20Mohammad%20Noorchenarboo&amp;fontColor=ffffff&amp;fontSize=18&amp;fontAlignY=65" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:3b82f6,100:4f46e5&amp;height=120&amp;section=footer&amp;text=Made%20with%20%E2%9D%A4%EF%B8%8F%20by%20Mohammad%20Noorchenarboo&amp;fontColor=ffffff&amp;fontSize=18&amp;fontAlignY=80" width="100%"/>
 
 [![GitHub Stars](https://img.shields.io/github/stars/mnoorchenar/risksight-pro?style=social)](https://github.com/mnoorchenar/risksight-pro)
 [![GitHub Forks](https://img.shields.io/github/forks/mnoorchenar/risksight-pro?style=social)](https://github.com/mnoorchenar/risksight-pro/fork)
