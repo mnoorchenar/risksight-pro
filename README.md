@@ -260,4 +260,6 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more informa
 [![GitHub Stars](https://img.shields.io/github/stars/mnoorchenar/risksight-pro?style=social)](https://github.com/mnoorchenar/risksight-pro)
 [![GitHub Forks](https://img.shields.io/github/forks/mnoorchenar/risksight-pro?style=social)](https://github.com/mnoorchenar/risksight-pro/fork)
 
+<sub>The name "RiskSight Pro" is used purely for academic and research purposes. Any similarity to existing company names, products, or trademarks is entirely coincidental and unintentional. This project has no affiliation with any commercial entity.</sub>
+
 </div>
